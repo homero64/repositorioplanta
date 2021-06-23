@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+	margin: 0;
+	background-color: #33D771;
+	font-family: arial;
+}
+.tope{
+	width: 99.88%;
+	height: 5px;
+	background-color: #48a676;
+}
+body{
+	font-family: Arial, Helvetica;
+	background: #e8e8e8;
+}
+#logo img{
+	width: 15%;
+	height: 80px;
+}
+.menu{
+	list-style: none;
+	margin-top: -85px;
+	padding: 0;
+	background: #405b53;
+	width: 85%;
+	float: right;
+	height: 80px;
+}
+.menu li{
+	text-decoration: none;
+	color: white;
+	padding: 35px 38px 27px 38px;
+	display: block;
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li:hover{
+	background: #b96348;
+}
+#ban{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Formulario*/
+form{
+	font-family: arial;
+	width: 450px;
+	height: auto;
+	padding: 40px;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 15px;
+		
+}
+fieldset{
+	font-family: arial;
+	border-radius: 10px;
+	border:2px solid rgb(191,110,49);
+	margin: 20px;
+	width: 400px; 
+	display: flex;
+	flex-direction: column;
+}
+legend{
+	font-family: arial;
+	font-size: 20px;
+	color: #c1694f;
+}
+label, p{
+	font-family: arial;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: rgb(0,0,0);
+}
+
+/*Input y Textarea*/
+input{
+	font-family: arial;
+	border-radius: 5px;
+	border:1px solid lightblue;
+	border-color: aliceblue;
+	padding: 5px 10px;
+	width: 300px;
+	height: 25px;
+	margin-left: 45px;
+}
+textarea{
+	border-color: aliceblue;
+	border-radius: 5px;
+	border:1px black;
+	width: 300px;
+	height: 100px;
+	margin-left: 45px;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-family: arial;
+}
+input:focus{
+	font-family: arial;
+	background-color: white;
+}
+textarea:focus{
+	font-family: arial;
+	background-color: white;
+}
+/*Select y el input Color*/
+select{
+	font-family: arial;
+	border-color: aliceblue;
+	border-radius: 5px;
+	border:1px solid lightblue;
+	width: 320px;
+	height: 35px;
+	margin-left: 45px;
+}
+#color{
+	width: 100px;
+}
+
+/*Numero porciones*/
+.numero-porciones{
+	margin: 5px 10px;
+}
+.numero-porciones input{
+	width:  20px;
+	height: 20px;
+}
+.numero-porciones label{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+/*Checkbox*/
+.checkbox{
+	margin: 5px 0px;
+}
+.checkbox input{
+	width: 20px;
+	height: 20px;
+}
+/*Boton Comprar*/
+#Enviar{
+	width: 425px;
+	height: 55px;
+	background-color: slateblue;
+	color: white;
+	font-size: 24px;
+	margin: 20px;
+}
+#Enviar:hover{
+	color: black;
+	background-color: purple;
+}
+#footer{
+	color: white;
+	width: 100%;
+	height: auto;
+	background-color: #405b53;
+}

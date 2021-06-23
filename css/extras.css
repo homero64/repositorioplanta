@@ -1,0 +1,69 @@
+.tope{
+	width: 99.88%;
+	height: 5px;
+	background-color: #48a676;
+	margin: 0px;
+}
+body{
+	font-family: Arial, Helvetica;
+	background: #e8e8e8;
+}
+#logo img{
+	width: 15%;
+	height: 80px;
+}
+.menu{
+	list-style: none;
+	margin-top: -85px;
+	padding: 0;
+	background: #405b53;
+	width: 85%;
+	float: right;
+	height: 80px;
+}
+.menu li{
+	text-decoration: none;
+	color: white;
+	padding: 35px 38px 27px 38px;
+	display: block;
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li:hover{
+	background: #b96348;
+}
+h1{
+	color: #405b53;	
+}
+table{
+ 	width: 99.88%;
+ 	height: 100%;
+ 	text-align: justify;
+}
+table img{
+	width: 300px;
+	height: 300px;
+}
+.TT{
+	width: 24%;
+	height: 25%;
+	color: #405b53;
+}
+.TI{
+	width: 24%;
+	height: 25%;
+}
+.TID{
+	width: 24%;
+	height: 25%;
+	color: #48a676;
+}
+#footer{
+	color: white;
+	width: 100%;
+	height: auto;
+	background-color: #405b53;
+}

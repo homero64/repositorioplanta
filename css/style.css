@@ -1,0 +1,153 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.tope{
+	width: 99.88%;
+	height: 5px;
+	background-color: #48a676;
+}
+body{
+	font-family: Arial, Helvetica;
+	background: #e8e8e8;
+}
+#logo img{
+	width: 15%;
+	height: 80px;
+}
+.menu{
+	list-style: none;
+	margin-top: -85px;
+	padding: 0;
+	background: #405b53;
+	width: 85%;
+	float: right;
+	height: 80px;
+}
+.menu li{
+	text-decoration: none;
+	color: white;
+	padding: 35px 38px 27px 38px;
+	display: block;
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li:hover{
+	background: #b96348;
+}
+.banner{
+	width: 100%;
+	height: 425px;
+}
+.banner img{
+	width: 100%;
+	height: 430px;
+	margin-top: -5px;
+}
+.tronco{
+	width: 99.88%;
+	height: 8px;
+	background-color: #c1694f;
+}
+/* Empieza la intro*/
+.intro{
+	background: #e8e8e8;
+	width: 100%;
+	height: 190px;
+	margin-top: -1px;
+}
+.intro h1{
+	color: #405b53;
+	text-align: center;
+	margin-top: 25px;
+}
+.intro p{
+	margin: 20px;
+	Word-spacing: 4px;
+	letter-spacing: 1px;
+	font-family: Verdana;
+	line-height: 150%;
+	color: #405b53;
+}
+/* Empiezan las secciones*/
+
+.secciones{
+	margin: 0;
+	width: 100%;
+	height: 600px;
+	background: #405b53;
+}
+.secciones h2{
+	margin: 0;
+	width: 150px;
+	color: #e8e8e8;
+	font-size: 30px;
+	background: #c1694f;
+	padding: 25px;	
+}
+#interiores{
+	width: 33.1%;
+	margin: 0;
+	padding: 0;
+}
+#exteriores{
+	width: 33.1%;
+	margin: 0;
+	padding: 0;
+}
+#accesorios{
+	width: 33.1%;
+	margin: 0;
+	`padding: 0;
+}
+.redes{
+	width: 100%;
+	border-style: none;
+	height: 310px;
+	background: #48a676;
+	text-align: center;
+}
+#compra{
+	padding-top: 30px;
+	font-size: 30px;
+	color: #fff;
+}
+.redes p{
+	text-align: left;
+	margin: 20px;
+	padding: 10px;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	line-height: 200%;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+#insta{
+	width: 50px;
+	padding: 5px;
+}
+#face{
+	width: 40px;
+	background: white;
+	margin-bottom: 12px;
+}
+#wassap{
+	width: 42px;
+	margin-left:5px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+#footer{
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: #405b53;
+}
+#footer center{
+	padding: 8px;
+}

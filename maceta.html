@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Plantaria</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="description" content="Ordenes y pedidos">
+	<meta name="Keywords" content="Plantas,emprendimiento">
+	<link rel="shortcut icon" href="img/l1.png">
+	<link rel="stylesheet" type="text/css" href="css/maceta.css"> 
+</head>
+<body>
+	<hr class="tope">
+		<div class="arriba">
+			<div id="logo"><img src="img/logo.png"></div>
+			<ul class="menu">
+				<a href="soporte.html"><li><strong>·</strong> Soporte</li></a>
+				<a href="index-nosotros.html"><li><strong>·</strong> Nosotros</li></a>
+				<a href="cuidados.html"><li><strong>·</strong> Tips</li></a>
+				<a href="maceta.html"><li><strong>·</strong> Tienda</li></a>
+				<a href="index.html"><li><strong>·</strong> Inicio</li></a>
+			</ul>
+		</div>
+	<form>
+		<fieldset>
+			<legend>Ingrese los datos</legend>
+			<label>Escoja el tipo de planta o item</label>
+			<select id="masa">
+				<optgroup label="La orden fuen en el ambito de:">
+						<option value="Chocolate">Planta de Interior</option>
+						<option value="Masa Blanca">Planta de exterior</option>
+						<option value="Amapola">Accesorios para mi planta</option>
+						
+					</optgroup>
+		
+				</select>	
+			
+				<label>Suba la foto de la Ubicacion o punto referencial</label>	
+			<input type="file" name=""> 						
+			<p>Tiempo estimado de la llegada:</p>
+			<div class="numero-porciones">
+				<input type="radio" id="24"name="porciones">
+				<label for="24">1 Semana (Gratis)</label>
+			</div>
+				<div class="numero-porciones">
+				<input type="radio" id="12"name="porciones">
+				<label for="12">5 Días (5.99$)</label>
+			</div>
+				<div class="numero-porciones">
+				<input type="radio" id="5"name="porciones">
+				<label for="5">3 Días (9.99$)</label>
+			</div>
+			<label>Color de la masceta</label>
+			<input type="color" value="#c1694f" id="color">
+			<p>La planta es para regalo y necesitas tarjeta?</p>
+			<select name="tarjeta" id="tarjeta">
+				<option value="si">Si</option>
+				<option value="no">No</option>
+			</select>
+			<p>Escribe aqui el mensaje para la tarjeta:</p>
+			<textarea name="mensaje" id="mensaje" placeholder="Escribe el mensaje de tu tarjeta va aqui">
+			</textarea>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Recive informacion de Plantaria</legend>
+		<p>Quieres recibir informacion de PLantaria?</p>
+		<select name="informacion" id="informacion">
+			<option value="si">Si</option>
+			<option value="no">No</option>
+		</select>
+		<p>Que informacion te interesa?</p>
+		<div class="checkbox">
+			<input type="checkbox" name="checkbox" id="recetas">
+			<label for="recetas">Cuidados de plantas</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="checkbox" id="porciones">
+			<label for="porciones">Promociones</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="checkbox" id="eventos">
+			<label for="eventos">Eventos</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="checkbox" id="cursos">
+			<label for="cursos">Cursos de botanica</label>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Datos de envio</legend>
+		<label>Nombre completo:</label>
+		<input type="text" placeholder="Tu nombre aqui" name="">
+		<label>Correo electronico:</label>
+		<input type="email" placeholder="ejemplo@correo.com" name="">
+		<label>Codigo del producto</label>
+		<input type="url" placeholder="Id: 111 111 111" name="">
+		<label>Telefono</label>
+		<input type="text" placeholder="400 0000 000" name="">
+	</fieldset>
+	<input type="submit" value="Enviar" name="">
+</form>
+<div id="footer">
+		<center>
+			@copyright Unidad Educativa Liceo Americano Catolico
+			<br>
+			2020-2021
+		</center>
+	</div>
+</body>
+</html>

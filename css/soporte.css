@@ -1,0 +1,128 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.tope{
+	width: 99.88%;
+	height: 5px;
+	background-color: #48a676;
+}
+body{
+	font-family: Arial, Helvetica;
+	background: #e8e8e8;
+}
+#logo img{
+	width: 15%;
+	height: 80px;
+}
+.menu{
+	list-style: none;
+	margin-top: -85px;
+	padding: 0;
+	background: #405b53;
+	width: 85%;
+	float: right;
+	height: 80px;
+}
+.menu li{
+	text-decoration: none;
+	color: white;
+	padding: 35px 38px 27px 38px;
+	display: block;
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li:hover{
+	background: #b96348;
+}
+/* EL SOPORTE */
+
+.bienvenido{
+	width: 100%;
+	height: 80px;
+	background: #48a676;
+	margin: 0;
+	padding: 0;
+}
+.bienvenido h2{
+	padding: 20px;
+	font-size: 30px;
+	color: #e8e8e8;
+}
+.bienvenido p{
+	margin: 20px;
+	font-size: 15px;
+	color: #405b53;
+	font-family: Verdana;
+	line-height: 150%;
+	font-style: none;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+/*formulario*/
+.form{
+	margin: 80px auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	width: 460px;
+	height: auto;         
+	text-align: left;
+	background-color: #405b53;
+	box-shadow: 0 0 10px 15px #909497;
+}
+.form h1{
+	padding: 15px;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 35px;
+
+}
+.campo{
+	padding: 20px;
+	font-family: verdana;
+	color: #fff;
+}
+input{
+	width: 375px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding-left: 10px;
+	color: #641E16;
+	font-family: monospace;
+}
+.mensaje{
+	padding: 20px;
+	color: #fff;
+}
+.mensaje textarea{
+	width: 375px;
+	height: 80px;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+#enviar{
+  height: 45px; 
+  padding-left: 10px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #48a676; 
+  border-color: black ; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 430px;   
+  cursor: pointer;
+}
+#enviar:hover{
+	color: white;
+	border-color: #82E0AA;
+}
